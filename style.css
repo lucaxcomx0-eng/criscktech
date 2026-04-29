@@ -920,17 +920,17 @@ a{
   }
 
   .hero-visual{
-    min-height:380px;
+    min-height:480px;
   }
 
   .hero-orbit{
-    width:320px;
-    height:320px;
+    width:360px;
+    height:360px;
   }
 
   .image-stack{
-    width:min(100%, 340px);
-    padding:12px;
+    width:min(100%, 420px);
+    padding:14px;
     border-radius:28px;
   }
 
