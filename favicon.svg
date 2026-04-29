@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="panel" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#030813"/>
+      <stop offset="0.45" stop-color="#0a1f4d"/>
+      <stop offset="1" stop-color="#12398d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18 16) rotate(38) scale(38)">
+      <stop offset="0" stop-color="#5d93ff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#5d93ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="18" y1="18" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#d4e5ff"/>
+    </linearGradient>
+    <linearGradient id="cut" x1="37" y1="18" x2="37" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d2c70"/>
+      <stop offset="1" stop-color="#08152e"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="#020611"/>
+  <rect x="5" y="5" width="54" height="54" rx="16" fill="url(#panel)"/>
+  <rect x="5" y="5" width="54" height="54" rx="16" fill="url(#glow)"/>
+  <path d="M49 20.78c-3.18-3.09-7.55-4.64-13.12-4.64-5.83 0-10.59 1.72-14.3 5.16C17.86 24.71 16 29.1 16 34.47c0 5.43 1.87 9.85 5.62 13.26 3.78 3.44 8.58 5.16 14.41 5.16 5.43 0 9.71-1.55 12.85-4.64l-4.99-5.14c-2.17 1.93-4.78 2.89-7.81 2.89-3.47 0-6.24-1-8.31-3.01-2.07-2.04-3.1-4.87-3.1-8.5 0-3.53 1.03-6.32 3.1-8.38 2.1-2.07 4.87-3.1 8.31-3.1 3 0 5.6.95 7.81 2.85z" fill="url(#mark)"/>
+  <path d="M38.45 18.4h11.2v5.6h-8.42z" fill="#edf5ff" opacity=".9"/>
+  <path d="M39.2 27.5h8.55c-2.51 1.13-4.42 2.84-5.72 5.14-1.27 2.27-1.9 4.96-1.9 8.08 0 2.85.43 5.34 1.28 7.46H35.9c-1.48-2.02-2.22-4.71-2.22-8.08 0-3.79.86-6.75 2.58-8.88 1.72-2.14 4.03-3.38 6.94-3.72z" fill="url(#cut)"/>
+  <circle cx="48.2" cy="19.8" r="2.2" fill="#f7fbff"/>
+</svg>
