@@ -941,18 +941,24 @@ a{
   }
 
   .hero-visual{
-    min-height:480px;
+    width:min(100vw - 24px, 520px);
+    min-height:560px;
+    margin:0 auto;
   }
 
   .hero-orbit{
-    width:360px;
-    height:360px;
+    width:420px;
+    height:420px;
   }
 
   .image-stack{
-    width:min(100%, 420px);
-    padding:14px;
+    width:min(100%, 500px);
+    padding:12px;
     border-radius:28px;
+  }
+
+  .primary-shot{
+    aspect-ratio:4/4.8;
   }
 
   .floating-card{
