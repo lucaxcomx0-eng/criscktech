@@ -880,14 +880,35 @@ a{
 
   .topbar-inner{
     padding:12px 0;
+    flex-direction:column;
+    align-items:stretch;
+    gap:12px;
   }
 
   .nav-meta{
+    width:100%;
     gap:10px;
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
   }
 
   .nav-pill.label-only{
     display:none;
+  }
+
+  .brand{
+    justify-content:center;
+    width:100%;
+    font-size:1rem;
+    letter-spacing:.22em;
+  }
+
+  .nav-pill{
+    width:100%;
+    min-height:42px;
+    padding:0 14px;
+    font-size:.92rem;
+    text-align:center;
   }
 
   .hero{
