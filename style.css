@@ -946,13 +946,13 @@ a{
 
   .hero-visual{
     width:min(100vw - 8px, 620px);
-    min-height:640px;
+    min-height:auto;
     margin:0 auto;
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
-    gap:14px;
+    gap:10px;
   }
 
   .hero-orbit{
@@ -967,9 +967,10 @@ a{
   }
 
   .image-stack-hero{
-    width:min(100vw - 18px, 560px);
+    width:min(100vw - 12px, 620px);
     padding:8px;
     border-radius:30px;
+    order:1;
   }
 
   .primary-shot{
@@ -978,8 +979,25 @@ a{
 
   .primary-shot-hero{
     aspect-ratio:1/1.08;
-    min-height:440px;
+    min-height:500px;
     border-radius:24px;
+  }
+
+  .hero-visual .floating-card{
+    position:relative;
+    inset:auto;
+    width:min(100%, 340px);
+    max-width:340px;
+    margin:0 auto;
+    text-align:center;
+  }
+
+  .hero-visual .floating-card.top{
+    order:2;
+  }
+
+  .hero-visual .floating-card.bottom{
+    order:3;
   }
 
   .story-visual{
