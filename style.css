@@ -948,6 +948,11 @@ a{
     width:min(100vw - 8px, 620px);
     min-height:640px;
     margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    gap:14px;
   }
 
   .hero-orbit{
@@ -988,8 +993,10 @@ a{
 
   .floating-card{
     position:static;
-    max-width:none;
-    margin-top:14px;
+    width:min(100%, 320px);
+    max-width:320px;
+    margin:0 auto;
+    text-align:center;
   }
 
   .story-card,
